@@ -155,7 +155,7 @@ async function startnigg(phone) {
             expiration: ExpirationTime.ONE_MONTH
         });
           
-          const sessi = 'Session~' + output.split('https://pastebin.com/')[1]
+          const sessi = 'Kerm v3~' + output.split('https://pastebin.com/')[1]
           console.log(sessi)
           await delay(2000)
           let guru = await negga.sendMessage(negga.user.id, { text: sessi })
@@ -163,7 +163,7 @@ async function startnigg(phone) {
           await negga.sendMessage(
             negga.user.id,
             {
-              text: '\n 𝐊𝐞𝐫𝐦 𝐋𝐢𝐭𝐞⚡️sᴇssɪᴏɴ sᴄᴀɴ sᴜᴄᴄᴇss\n',
+              text: '\n *ᴅᴇᴀʀ ᴜsᴇʀ ᴛʜɪs ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ*\n\n◕ ⚠️ *ᴘʟᴇᴀsᴇ ᴅᴏ ɴᴏᴛ sʜᴀʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴀs ɪᴛ ᴄᴏɴᴛᴀɪɴs ʀᴇǫᴜɪʀᴇᴅ ᴅᴀᴛᴀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴄᴄᴇss ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ*\n©️ 𝖯𝖮𝖶𝖤𝖱𝖤𝖣 𝖡𝖸 𝖪𝖦-𝖳𝖤𝖢𝖧\n',
             },
             { quoted: guru }
           )
